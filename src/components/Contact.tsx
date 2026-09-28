@@ -163,7 +163,13 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="text-sm font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-1">Email</h4>
-                  <a href="mailto:kumarikhushi62169@gmail.com" target="_blank" rel="noreferrer" className="text-lg font-medium text-slate-900 dark:text-white hover:text-primary transition-colors">
+                  <a 
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=kumarikhushi62169@gmail.com" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    title="Send email to kumarikhushi62169@gmail.com"
+                    className="text-lg font-medium text-slate-900 dark:text-white hover:text-primary transition-colors"
+                  >
                     kumarikhushi62169@gmail.com
                   </a>
                 </div>
@@ -230,10 +236,11 @@ export default function Contact() {
                 <Linkedin size={24} />
               </a>
               <a
-                href="mailto:kumarikhushi62169@gmail.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=kumarikhushi62169@gmail.com"
                 target="_blank"
-                rel="noreferrer"
-                aria-label="Email"
+                rel="noopener noreferrer"
+                aria-label="Email kumarikhushi62169@gmail.com"
+                title="Send email to kumarikhushi62169@gmail.com"
                 className="w-12 h-12 rounded-full bg-[#EA4335] hover:bg-[#c5221f] text-white flex items-center justify-center hover:-translate-y-1 hover:scale-110 transition-all shadow-lg shadow-[#EA4335]/30 hover:shadow-[#EA4335]/50"
               >
                 <Mail size={24} />

@@ -111,10 +111,11 @@ export default function Hero({ onOpenResume }: HeroProps) {
                 <Linkedin size={22} />
               </a>
               <a
-                href="mailto:kumarikhushi62169@gmail.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=kumarikhushi62169@gmail.com"
                 target="_blank"
-                rel="noreferrer"
-                aria-label="Email"
+                rel="noopener noreferrer"
+                aria-label="Email kumarikhushi62169@gmail.com"
+                title="Send email to kumarikhushi62169@gmail.com"
                 className="w-12 h-12 rounded-full bg-[#EA4335] hover:bg-[#c5221f] text-white flex items-center justify-center shadow-lg hover:shadow-[#EA4335]/40 hover:-translate-y-1 hover:scale-110 transition-all duration-300"
               >
                 <Mail size={22} />
