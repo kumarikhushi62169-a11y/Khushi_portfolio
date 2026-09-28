@@ -105,14 +105,22 @@ export default function Navbar({ onOpenResume }: { onOpenResume?: () => void }) 
           </button>
         </div>
 
-        {/* Mobile Toggle */}
-        <div className="flex items-center gap-4 lg:hidden">
+        {/* Mobile Toggle & Actions */}
+        <div className="flex items-center gap-2 sm:gap-3 lg:hidden">
           <ThemeToggle />
           <button
-            onClick={() => setIsOpen(!isOpen)}
-            className="text-slate-800 dark:text-slate-200 p-2 focus:outline-none"
+            onClick={onOpenResume}
+            className="flex items-center gap-1.5 px-3 py-1.5 bg-primary text-white text-xs font-semibold rounded-full shadow-md shadow-primary/20 hover:bg-blue-700 transition-all cursor-pointer"
           >
-            {isOpen ? <X size={24} /> : <Menu size={24} />}
+            <Download size={14} />
+            <span>Resume</span>
+          </button>
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="text-slate-800 dark:text-slate-200 p-1.5 focus:outline-none"
+            aria-label="Toggle menu"
+          >
+            {isOpen ? <X size={22} /> : <Menu size={22} />}
           </button>
         </div>
       </div>

@@ -3,8 +3,8 @@ import { motion, useInView } from 'motion/react';
 import { Code2, Github, Terminal, Coffee } from 'lucide-react';
 
 const stats = [
-  { icon: Code2, value: 25, label: 'Projects Completed', suffix: '+' },
-  { icon: Terminal, value: 20, label: 'Technologies Learned', suffix: '+' },
+  { icon: Code2, value: 30, label: 'Projects Completed', suffix: '+' },
+  { icon: Terminal, value: 25, label: 'Technologies Learned', suffix: '+' },
   { icon: Github, value: 500, label: 'GitHub Contributions', suffix: '+' },
   { icon: Coffee, value: 2, label: 'Years Learning', suffix: '+' },
 ];

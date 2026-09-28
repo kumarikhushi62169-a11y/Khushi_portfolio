@@ -5,7 +5,11 @@ import { motion } from 'motion/react';
 import gsap from 'gsap';
 import avatarImg from '../assets/images/female_developer_avatar_1785307560850.jpg';
 
-export default function Hero() {
+interface HeroProps {
+  onOpenResume?: () => void;
+}
+
+export default function Hero({ onOpenResume }: HeroProps) {
   const heroRef = useRef<HTMLDivElement>(null);
   
   useEffect(() => {
@@ -43,6 +47,14 @@ export default function Hero() {
                 sequence={[
                   'Full Stack Developer',
                   2000,
+                  'Web Developer',
+                  2000,
+                  'MERN Stack Developer',
+                  2000,
+                  'Flutter Developer',
+                  2000,
+                  'Mobile Application Developer',
+                  2000,
                   'Frontend Developer',
                   2000,
                   'Backend Developer',
@@ -69,12 +81,14 @@ export default function Hero() {
               >
                 Hire Me
               </a>
-              <a
-                href="#projects"
-                className="px-8 py-3.5 bg-slate-100/50 dark:bg-slate-800/50 backdrop-blur-md border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white rounded-2xl font-bold text-sm shadow-sm hover:bg-slate-200 dark:hover:bg-slate-800 transition-all flex items-center justify-center"
+              <button
+                type="button"
+                onClick={onOpenResume}
+                className="px-8 py-3.5 bg-blue-600 hover:bg-blue-700 text-white rounded-2xl font-bold text-sm shadow-lg shadow-blue-500/25 hover:shadow-blue-500/40 hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-2 cursor-pointer"
               >
-                View Projects
-              </a>
+                <Download size={18} className="text-white" />
+                Resume
+              </button>
             </div>
 
             <div className="hero-text flex items-center gap-4 justify-center lg:justify-start">

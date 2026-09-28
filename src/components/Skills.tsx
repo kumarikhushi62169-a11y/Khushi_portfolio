@@ -47,7 +47,7 @@ const skillCategories = [
       { name: 'OpenAI Codex', level: 90 },
       { name: 'Cursor AI', level: 92 },
       { name: 'GitHub Copilot', level: 92 },
-      { name: 'Claude', level: 90 },
+      { name: 'Claude', level: 80 },
     ]
   },
   {

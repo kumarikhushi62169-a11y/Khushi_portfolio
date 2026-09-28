@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import { motion, useInView, AnimatePresence } from 'motion/react';
-import { Github, ExternalLink } from 'lucide-react';
+import { Github } from 'lucide-react';
 import projectWeatherApp from '../assets/images/project_weather_app_1785227708626.jpg';
 import projectSnakeGame from '../assets/images/project_snake_game_1785227726768.jpg';
 import projectWeatherBackend from '../assets/images/project_weather_backend_1785227745521.jpg';
@@ -234,14 +234,6 @@ export default function Projects() {
                       className="flex items-center gap-1.5 text-sm font-medium text-slate-600 hover:text-primary dark:text-slate-400 dark:hover:text-primary transition-colors"
                     >
                       <Github size={16} /> GitHub
-                    </a>
-                    <a 
-                      href={project.live} 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-1.5 text-sm font-medium text-slate-600 hover:text-primary dark:text-slate-400 dark:hover:text-primary transition-colors"
-                    >
-                      <ExternalLink size={16} /> Live Demo
                     </a>
                   </div>
                   

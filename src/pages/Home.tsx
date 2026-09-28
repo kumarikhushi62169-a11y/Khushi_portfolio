@@ -43,7 +43,7 @@ export default function Home() {
           <Navbar onOpenResume={() => setIsResumeOpen(true)} />
           
           <main className="flex-grow">
-            <Hero />
+            <Hero onOpenResume={() => setIsResumeOpen(true)} />
             <About />
             <Skills />
             <Projects />
