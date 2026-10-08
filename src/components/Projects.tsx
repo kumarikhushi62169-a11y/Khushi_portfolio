@@ -3,7 +3,9 @@ import { motion, useInView, AnimatePresence } from 'motion/react';
 import { Github } from 'lucide-react';
 import projectWeatherApp from '../assets/images/project_weather_app_1785227708626.jpg';
 import projectSnakeGame from '../assets/images/project_snake_game_1785227726768.jpg';
-import projectWeatherBackend from '../assets/images/project_weather_backend_1785227745521.jpg';
+import projectSpotify from '../assets/images/spotify_web_app_1791354126800.jpg';
+import projectColorGenerator from '../assets/images/project_color_generator_1791355353912.jpg';
+import projectAvatarGenerator from '../assets/images/project_avatar_generator_1791355374461.jpg';
 
 const projects = [
   // Frontend Projects
@@ -13,7 +15,7 @@ const projects = [
     image: projectWeatherApp,
     tech: ['React', 'Tailwind CSS', 'OpenWeather API'],
     category: 'Frontend',
-    github: 'https://github.com/kumarikhushi62169-a11y',
+    github: 'https://github.com/kumarikhushi62169-a11y/Current_weather_App',
     live: 'https://khushi-weather-app.netlify.app'
   },
   {
@@ -22,7 +24,7 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800',
     tech: ['HTML/CSS', 'JavaScript', 'GSAP'],
     category: 'Frontend',
-    github: 'https://github.com/kumarikhushi62169-a11y',
+    github: 'https://github.com/kumarikhushi62169-a11y/Animation-counting',
     live: 'https://khushi-animation-counter.netlify.app'
   },
   {
@@ -31,17 +33,26 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&q=80&w=800',
     tech: ['React', 'Redux', 'CSS Modules'],
     category: 'Frontend',
-    github: 'https://github.com/kumarikhushi62169-a11y',
+    github: 'https://github.com/kumarikhushi62169-a11y/Animation-counting',
     live: 'https://khushi-todo-app.netlify.app'
   },
   {
-    title: 'Car Game',
-    description: 'A 2D browser-based racing game with collision detection, score tracking, and keyboard controls.',
+    title: 'Car Animation',
+    description: 'A 2D browser-based animated car project with interactive motion, controls, and dynamic scenery.',
     image: 'https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&q=80&w=800',
     tech: ['HTML5 Canvas', 'JavaScript', 'CSS3'],
     category: 'Frontend',
-    github: 'https://github.com/kumarikhushi62169-a11y',
+    github: 'https://github.com/kumarikhushi62169-a11y/Car-animation/tree/master',
     live: 'https://khushi-car-game.netlify.app'
+  },
+  {
+    title: 'Animated Website',
+    description: 'A modern, dynamic website built with smooth animations, engaging interactions, and responsive design.',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800',
+    tech: ['HTML5', 'CSS3', 'JavaScript'],
+    category: 'Frontend',
+    github: 'https://github.com/kumarikhushi62169-a11y/animated-website/tree/main',
+    live: 'https://khushi-animated-website.netlify.app'
   },
   {
     title: 'Snake Game',
@@ -49,7 +60,7 @@ const projects = [
     image: projectSnakeGame,
     tech: ['JavaScript', 'HTML/CSS'],
     category: 'Frontend',
-    github: 'https://github.com/kumarikhushi62169-a11y',
+    github: 'https://github.com/kumarikhushi62169-a11y/animated-website/tree/master',
     live: 'https://khushi-snake-game.netlify.app'
   },
   {
@@ -58,7 +69,7 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1587145820266-a5951ee6f620?auto=format&fit=crop&q=80&w=800',
     tech: ['HTML', 'CSS', 'JavaScript'],
     category: 'Frontend',
-    github: 'https://github.com/kumarikhushi62169-a11y',
+    github: 'https://github.com/kumarikhushi62169-a11y/Calculator',
     live: 'https://khushi-calculator.netlify.app'
   },
   {
@@ -67,8 +78,26 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1555664424-778a1e5e1b48?auto=format&fit=crop&q=80&w=800',
     tech: ['React', 'CSS', 'Framer Motion'],
     category: 'Frontend',
-    github: 'https://github.com/kumarikhushi62169-a11y',
+    github: 'https://github.com/kumarikhushi62169-a11y/Mouse-zoomer-project/tree/master',
     live: 'https://khushi-mouse-zoomer.netlify.app'
+  },
+  {
+    title: 'Color Generator',
+    description: 'An interactive color palette generator web application with HEX/RGB codes, live gradient generator, and one-click copy.',
+    image: projectColorGenerator,
+    tech: ['JavaScript', 'HTML5', 'Tailwind CSS'],
+    category: 'Frontend',
+    github: 'https://github.com/kumarikhushi62169-a11y/Color-generator/tree/main',
+    live: 'https://khushi-color-generator.netlify.app'
+  },
+  {
+    title: 'Avatar Generator',
+    description: 'A creative avatar maker web application allowing users to create, customize, and download unique vector and 3D character avatars.',
+    image: projectAvatarGenerator,
+    tech: ['React.js', 'Tailwind CSS', 'SVG API'],
+    category: 'Frontend',
+    github: 'https://github.com/kumarikhushi62169-a11y/Avatar/tree/master',
+    live: 'https://khushi-avatar-generator.netlify.app'
   },
   // Fullstack Projects
   {
@@ -86,7 +115,7 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80&w=800',
     tech: ['React.js', 'Node.js', 'Express.js', 'MySQL'],
     category: 'Fullstack',
-    github: 'https://github.com/kumarikhushi62169-a11y',
+    github: 'https://github.com/kumarikhushi62169-a11y/E-Commerces-Website',
     live: 'https://khushi-ecommerce.netlify.app'
   },
   {
@@ -95,7 +124,7 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=800',
     tech: ['React', 'Node.js', 'Socket.io', 'MongoDB'],
     category: 'Fullstack',
-    github: 'https://github.com/kumarikhushi62169-a11y',
+    github: 'https://github.com/kumarikhushi62169-a11y/Fullstack-chat-app',
     live: 'https://khushi-chat-app.netlify.app'
   },
   {
@@ -104,7 +133,7 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=800',
     tech: ['MERN Stack', 'Tailwind', 'JWT'],
     category: 'Fullstack',
-    github: 'https://github.com/kumarikhushi62169-a11y',
+    github: 'https://github.com/kumarikhushi62169-a11y/Fullstack-Crud-Application',
     live: 'https://khushi-crud-app.netlify.app'
   },
   {
@@ -113,7 +142,7 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&q=80&w=800',
     tech: ['React', 'Express', 'MongoDB'],
     category: 'Fullstack',
-    github: 'https://github.com/kumarikhushi62169-a11y',
+    github: 'https://github.com/kumarikhushi62169-a11y/Fullstack-Hospital-Website',
     live: 'https://khushi-hospital-website.netlify.app'
   },
   // Backend Projects
@@ -123,26 +152,26 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1472289065668-ce650ac443d2?auto=format&fit=crop&q=80&w=800',
     tech: ['Node.js', 'Express', 'Cloudinary', 'MongoDB'],
     category: 'Backend',
-    github: 'https://github.com/kumarikhushi62169-a11y',
+    github: 'https://github.com/kumarikhushi62169-a11y/image-gallery/tree/master',
     live: 'https://khushi-image-gallery-api.netlify.app'
   },
   {
-    title: 'News Aggregator API',
-    description: 'A backend service that scrapes, categorizes, and serves the latest news articles from various global sources.',
+    title: 'News App',
+    description: 'A backend service and application that scrapes, categorizes, and serves the latest news articles from various global sources.',
     image: 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&q=80&w=800',
     tech: ['Python', 'Django', 'PostgreSQL'],
     category: 'Backend',
-    github: 'https://github.com/kumarikhushi62169-a11y',
+    github: 'https://github.com/kumarikhushi62169-a11y/News-project',
     live: 'https://khushi-news-api.netlify.app'
   },
   {
-    title: 'Real-Time Weather Service',
-    description: 'A high-performance backend microservice for aggregating and caching weather data via WebSocket streams.',
-    image: projectWeatherBackend,
-    tech: ['Go', 'Redis', 'WebSockets'],
-    category: 'Backend',
-    github: 'https://github.com/kumarikhushi62169-a11y',
-    live: 'https://khushi-weather-service.netlify.app'
+    title: 'Spotify Website',
+    description: 'A responsive music streaming web application inspired by Spotify with playlist browsing, interactive audio player, and sleek dark UI.',
+    image: projectSpotify,
+    tech: ['React.js', 'Tailwind CSS', 'Web Audio API'],
+    category: 'Frontend',
+    github: 'https://github.com/kumarikhushi62169-a11y/Spotify-website',
+    live: 'https://khushi-spotify.netlify.app'
   }
 ];
 

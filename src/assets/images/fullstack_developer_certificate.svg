@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&amp;family=Cinzel:wght@600;700;800;900&amp;family=Caveat:wght@600&amp;display=swap');
+      .font-sans { font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .font-serif { font-family: 'Cinzel', 'Times New Roman', Georgia, serif; }
+      .font-sig { font-family: 'Caveat', 'Brush Script MT', cursive; }
+      .font-mono { font-family: ui-monospace, monospace; }
+    </style>
+
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D97706" />
+      <stop offset="35%" stop-color="#FCD34D" />
+      <stop offset="70%" stop-color="#B45309" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E40AF" />
+      <stop offset="50%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+  </defs>
+
+  <!-- Clean Canvas Background -->
+  <rect width="1200" height="850" fill="url(#cardGrad)" />
+
+  <!-- Outer Navy & Blue Architectural Border -->
+  <rect x="25" y="25" width="1150" height="800" rx="10" fill="none" stroke="url(#blueGrad)" stroke-width="5" />
+  <rect x="36" y="36" width="1128" height="778" rx="6" fill="none" stroke="url(#goldGrad)" stroke-width="1.8" />
+  <rect x="44" y="44" width="1112" height="762" rx="4" fill="none" stroke="#E2E8F0" stroke-width="1.2" stroke-dasharray="4,4" />
+
+  <!-- Corner Tech Accent Brackets -->
+  <path d="M 30,70 L 70,70 L 70,30" fill="none" stroke="url(#blueGrad)" stroke-width="3" />
+  <circle cx="70" cy="70" r="4" fill="#2563EB" />
+  <path d="M 1170,70 L 1130,70 L 1130,30" fill="none" stroke="url(#blueGrad)" stroke-width="3" />
+  <circle cx="1130" cy="70" r="4" fill="#2563EB" />
+  <path d="M 30,780 L 70,780 L 70,820" fill="none" stroke="url(#blueGrad)" stroke-width="3" />
+  <circle cx="70" cy="780" r="4" fill="#2563EB" />
+  <path d="M 1170,780 L 1130,780 L 1130,820" fill="none" stroke="url(#blueGrad)" stroke-width="3" />
+  <circle cx="1130" cy="780" r="4" fill="#2563EB" />
+
+  <!-- Top Tech Symbol Emblem -->
+  <g transform="translate(600, 105)">
+    <circle cx="0" cy="0" r="32" fill="#0F172A" stroke="url(#blueGrad)" stroke-width="3" />
+    <path d="M -12,-8 L -20,0 L -12,8 M 12,-8 L 20,0 L 12,8 M 5,-12 L -5,12" fill="none" stroke="#38BDF8" stroke-width="2.6" stroke-linecap="round" />
+  </g>
+
+  <!-- TITLE: TECHNICAL SKILL PROFICIENCY -->
+  <text x="600" y="180" text-anchor="middle" class="font-serif" font-weight="900" font-size="32" fill="#0F172A" letter-spacing="3">TECHNICAL SKILL PROFICIENCY</text>
+  <text x="600" y="210" text-anchor="middle" class="font-sans" font-weight="800" font-size="14" fill="#2563EB" letter-spacing="3">FULL STACK WEB DEVELOPMENT &amp; ARCHITECTURE</text>
+
+  <!-- Horizontal Accent Divider -->
+  <g transform="translate(600, 230)">
+    <line x1="-160" y1="0" x2="-20" y2="0" stroke="url(#blueGrad)" stroke-width="2" />
+    <polygon points="0,-5 5,0 0,5 -5,0" fill="#2563EB" />
+    <line x1="20" y1="0" x2="160" y2="0" stroke="url(#blueGrad)" stroke-width="2" />
+  </g>
+
+  <!-- RECOGNITION STATEMENT -->
+  <text x="600" y="275" text-anchor="middle" class="font-sans" font-weight="600" font-size="15" fill="#64748B" letter-spacing="1">DEMONSTRATED TECHNICAL COMPETENCY OF</text>
+
+  <!-- DEVELOPER NAME: KHUSHI KUMARI -->
+  <text x="600" y="340" text-anchor="middle" class="font-sans" font-weight="900" font-size="46" fill="#0F172A" letter-spacing="1">Khushi Kumari</text>
+  <line x1="390" y1="360" x2="810" y2="360" stroke="url(#blueGrad)" stroke-width="2.5" />
+
+  <!-- CORE SKILL PILLARS CARDS GRID (3 Columns) -->
+  <g transform="translate(140, 395)">
+    <!-- Column 1: Frontend -->
+    <rect x="0" y="0" width="280" height="180" rx="8" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1.5" />
+    <rect x="0" y="0" width="280" height="38" rx="8" fill="#2563EB" />
+    <rect x="0" y="25" width="280" height="13" fill="#2563EB" />
+    <text x="140" y="25" text-anchor="middle" class="font-sans" font-weight="800" font-size="14" fill="#FFFFFF">FRONTEND STACK</text>
+    <g class="font-sans" font-size="13" fill="#334155" font-weight="600">
+      <text x="20" y="68">• React.js &amp; Redux Toolkit</text>
+      <text x="20" y="96">• JavaScript (ES6+) &amp; HTML5</text>
+      <text x="20" y="124">• Tailwind CSS &amp; Responsive UI</text>
+      <text x="20" y="152">• Component Architecture</text>
+    </g>
+
+    <!-- Column 2: Backend & APIs -->
+    <rect x="320" y="0" width="280" height="180" rx="8" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1.5" />
+    <rect x="320" y="0" width="280" height="38" rx="8" fill="#0F172A" />
+    <rect x="320" y="25" width="280" height="13" fill="#0F172A" />
+    <text x="460" y="25" text-anchor="middle" class="font-sans" font-weight="800" font-size="14" fill="#FFFFFF">BACKEND &amp; APIS</text>
+    <g class="font-sans" font-size="13" fill="#334155" font-weight="600">
+      <text x="340" y="68">• Node.js &amp; Express.js</text>
+      <text x="340" y="96">• RESTful API Design</text>
+      <text x="340" y="124">• Authentication &amp; JWT</text>
+      <text x="340" y="152">• Socket.io Real-Time Comms</text>
+    </g>
+
+    <!-- Column 3: Databases & Tools -->
+    <rect x="640" y="0" width="280" height="180" rx="8" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1.5" />
+    <rect x="640" y="0" width="280" height="38" rx="8" fill="#0D9488" />
+    <rect x="640" y="25" width="280" height="13" fill="#0D9488" />
+    <text x="780" y="25" text-anchor="middle" class="font-sans" font-weight="800" font-size="14" fill="#FFFFFF">DATABASE &amp; TOOLS</text>
+    <g class="font-sans" font-size="13" fill="#334155" font-weight="600">
+      <text x="660" y="68">• MongoDB &amp; Mongoose</text>
+      <text x="660" y="96">• MySQL &amp; PostgreSQL</text>
+      <text x="660" y="124">• Git, GitHub &amp; Version Control</text>
+      <text x="660" y="152">• Postman &amp; Vercel Deployment</text>
+    </g>
+  </g>
+
+  <!-- LIVE PROJECTS EVIDENCE FOOTER BANNER -->
+  <g transform="translate(140, 600)">
+    <rect x="0" y="0" width="920" height="60" rx="8" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5" />
+    <text x="460" y="26" text-anchor="middle" class="font-sans" font-weight="800" font-size="13" fill="#1E40AF">PRACTICAL PROOF: VERIFIED THROUGH FULL STACK PORTFOLIO PROJECTS</text>
+    <text x="460" y="46" text-anchor="middle" class="font-sans" font-weight="600" font-size="12" fill="#3B82F6">Employee Management System (EMS) • E-Commerce Platform • Real-Time Chat App • Fullstack CRUD</text>
+  </g>
+
+  <!-- VERIFIED BADGE SEAL (Bottom Left) -->
+  <g transform="translate(250, 725)">
+    <circle cx="0" cy="0" r="34" fill="#0F172A" stroke="url(#goldGrad)" stroke-width="2.5" />
+    <circle cx="0" cy="0" r="28" fill="none" stroke="#FDE68A" stroke-width="1" stroke-dasharray="2,2" />
+    <text x="0" y="-5" text-anchor="middle" class="font-sans" font-weight="800" font-size="8" fill="#FCD34D" letter-spacing="1">SKILLSET</text>
+    <text x="0" y="8" text-anchor="middle" class="font-sans" font-weight="900" font-size="11" fill="#FFFFFF">100%</text>
+    <text x="0" y="18" text-anchor="middle" class="font-sans" font-weight="700" font-size="7.5" fill="#38BDF8">PRACTICAL</text>
+  </g>
+
+  <!-- CENTER METADATA -->
+  <g transform="translate(600, 725)">
+    <text x="0" y="-8" text-anchor="middle" class="font-sans" font-size="13" fill="#64748B">Competency ID: <tspan class="font-mono" font-weight="700" fill="#0284C7">SKILLS-FULLSTACK-KHUSHI</tspan></text>
+    <text x="0" y="14" text-anchor="middle" class="font-sans" font-size="13" fill="#64748B">Validation: <tspan font-weight="700" fill="#16A34A">Live Source Code on GitHub</tspan> • 2025–2026</text>
+  </g>
+
+  <!-- RIGHT DEVELOPER SIGNATURE -->
+  <g transform="translate(950, 715)">
+    <text x="0" y="-8" text-anchor="middle" class="font-sig" font-size="34" fill="#0F172A">Khushi Kumari</text>
+    <line x1="-80" y1="6" x2="80" y2="6" stroke="#94A3B8" stroke-width="1.2" />
+    <text x="0" y="24" text-anchor="middle" class="font-sans" font-weight="800" font-size="13" fill="#0F172A">Full Stack Developer</text>
+    <text x="0" y="40" text-anchor="middle" class="font-sans" font-weight="500" font-size="11" fill="#64748B">Author &amp; Engineering Lead</text>
+  </g>
+</svg>

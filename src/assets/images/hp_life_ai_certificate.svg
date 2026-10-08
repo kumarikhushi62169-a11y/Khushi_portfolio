@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Caveat:wght@600&amp;display=swap');
+      .font-sans { font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .font-sig { font-family: 'Caveat', 'Brush Script MT', cursive; }
+      .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    </style>
+    
+    <!-- Linear Gradients for polished HP blue branding -->
+    <linearGradient id="hpBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0096D6" />
+      <stop offset="100%" stop-color="#006699" />
+    </linearGradient>
+
+    <linearGradient id="polyCornerTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0072CE" />
+      <stop offset="100%" stop-color="#005A9C" />
+    </linearGradient>
+
+    <linearGradient id="polyCornerBottom" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0072CE" />
+      <stop offset="100%" stop-color="#004B87" />
+    </linearGradient>
+  </defs>
+
+  <!-- Clean White Certificate Canvas -->
+  <rect width="1200" height="800" fill="#FFFFFF" />
+
+  <!-- Diagonal Geometric Blue Polygon Accents matching original HP Certificate -->
+  <!-- Top Left Corner -->
+  <polygon points="0,0 230,0 0,490" fill="url(#polyCornerTop)" />
+  <!-- Subtle accent edge -->
+  <polygon points="0,490 230,0 245,0 0,520" fill="#0096D6" opacity="0.3" />
+
+  <!-- Bottom Right Corner -->
+  <polygon points="1200,800 970,800 1200,505" fill="url(#polyCornerBottom)" />
+  <!-- Subtle accent edge -->
+  <polygon points="1200,505 970,800 955,800 1200,475" fill="#0096D6" opacity="0.3" />
+
+  <!-- Outer subtle border frame -->
+  <rect x="2" y="2" width="1196" height="796" fill="none" stroke="#E2E8F0" stroke-width="2" />
+
+  <!-- HEADER BRANDING: HP LIFE | HP Foundation -->
+  <g transform="translate(430, 70)">
+    <!-- HP LIFE -->
+    <g transform="translate(0, 0)">
+      <!-- HP Blue Circle Logo -->
+      <circle cx="28" cy="24" r="24" fill="url(#hpBlueGrad)" />
+      <!-- hp text stylized italic -->
+      <text x="28" y="32" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-style="italic" font-weight="800" font-size="24" fill="#FFFFFF">hp</text>
+      <!-- LIFE text -->
+      <text x="62" y="29" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="700" font-size="19" fill="#1E293B" letter-spacing="1">LIFE</text>
+    </g>
+
+    <!-- Vertical Divider -->
+    <line x1="135" y1="5" x2="135" y2="43" stroke="#94A3B8" stroke-width="1.8" />
+
+    <!-- HP Foundation -->
+    <g transform="translate(160, 0)">
+      <!-- HP Blue Circle Logo -->
+      <circle cx="28" cy="24" r="24" fill="url(#hpBlueGrad)" />
+      <text x="28" y="32" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-style="italic" font-weight="800" font-size="24" fill="#FFFFFF">hp</text>
+      <!-- Foundation text -->
+      <text x="62" y="29" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="600" font-size="19" fill="#1E293B">Foundation</text>
+    </g>
+  </g>
+
+  <!-- TITLE: Certificate of Completion -->
+  <text x="600" y="195" text-anchor="middle" class="font-sans" font-weight="800" font-size="44" fill="#0F172A" letter-spacing="-0.5">Certificate of Completion</text>
+
+  <!-- RECIPIENT NAME: Khushi Kumari -->
+  <text x="600" y="265" text-anchor="middle" class="font-sans" font-weight="800" font-size="38" fill="#0F172A">Khushi Kumari</text>
+
+  <!-- SUBTEXT -->
+  <text x="600" y="312" text-anchor="middle" class="font-sans" font-weight="500" font-size="20" fill="#334155">has successfully completed the HP LIFE online course</text>
+
+  <!-- COURSE TITLE: AI for Business Professionals -->
+  <text x="600" y="370" text-anchor="middle" class="font-sans" font-weight="800" font-size="31" fill="#0F172A">AI for Business Professionals</text>
+
+  <!-- COURSE DESCRIPTION PARAGRAPH -->
+  <g class="font-sans" font-weight="400" font-size="15.5" fill="#334155" text-anchor="middle">
+    <text x="600" y="420">By completing this course, the above-named student has learned about AI’s role in business. They have</text>
+    <text x="600" y="446">discovered the difference between standalone AI tools and integrated features, learned how to craft</text>
+    <text x="600" y="472">effective prompts, gained insight into ethical use, and explored how to use AI tools to support professional</text>
+    <text x="600" y="498">growth.</text>
+  </g>
+
+  <!-- PRESENTED DATE -->
+  <text x="600" y="542" text-anchor="middle" class="font-sans" font-weight="500" font-size="15.5" fill="#334155">Presented 9/7/2026</text>
+
+  <!-- SIGNATURE SECTION -->
+  <g transform="translate(600, 595)">
+    <!-- Realistic Signature Vector -->
+    <path d="M -85,-10 C -70,-28 -55,5 -45,-15 C -35,-30 -25,2 -10,-8 C 5,-20 15,4 35,-12 C 45,-20 65,0 80,-8" fill="none" stroke="#0F172A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="0" y="-12" text-anchor="middle" class="font-sig" font-size="34" fill="#0F172A" opacity="0.85">Michele Malejki</text>
+    
+    <!-- Signature Line -->
+    <line x1="-110" y1="5" x2="110" y2="5" stroke="#0F172A" stroke-width="1.2" />
+
+    <!-- Signatory Name & Title -->
+    <text x="0" y="26" text-anchor="middle" class="font-sans" font-weight="700" font-size="15.5" fill="#0F172A">Michele Malejki</text>
+    <text x="0" y="46" text-anchor="middle" class="font-sans" font-weight="500" font-size="13.5" fill="#475569">Executive Director, HP Foundation</text>
+  </g>
+
+  <!-- CERTIFICATE SERIAL NUMBER FOOTER -->
+  <g transform="translate(600, 715)" text-anchor="middle" class="font-sans">
+    <text font-size="14.5" fill="#334155">Certificate serial number: <tspan class="font-mono" font-weight="600" fill="#0072CE">1e007d18-d349-4365-82e5-d0a8c9d83f15</tspan></text>
+  </g>
+</svg>

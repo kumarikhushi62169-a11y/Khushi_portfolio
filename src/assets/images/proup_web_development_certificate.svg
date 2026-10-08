@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&amp;family=Caveat:wght@600&amp;display=swap');
+      .font-sans { font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .font-sig { font-family: 'Caveat', 'Brush Script MT', cursive; }
+      .font-mono { font-family: ui-monospace, monospace; }
+    </style>
+
+    <linearGradient id="redWaveGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E11D2A" />
+      <stop offset="100%" stop-color="#99000C" />
+    </linearGradient>
+
+    <linearGradient id="redWaveGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF3845" />
+      <stop offset="100%" stop-color="#C40D1B" />
+    </linearGradient>
+
+    <linearGradient id="orangeLogoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7A00" />
+      <stop offset="100%" stop-color="#EA580C" />
+    </linearGradient>
+
+    <linearGradient id="grayCornerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F1F5F9" />
+      <stop offset="100%" stop-color="#CBD5E1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Clean Background -->
+  <rect width="1200" height="850" fill="#FFFFFF" />
+
+  <!-- Background subtle geometric facets in bottom right and top right -->
+  <polygon points="1050,0 1200,0 1200,160" fill="#F8FAFC" opacity="0.8" />
+  <polygon points="1120,680 1200,600 1200,850 1020,850" fill="#F1F5F9" opacity="0.6" />
+
+  <!-- DYNAMIC RED FLOWING WAVE RIBBONS (Left Side) matching original certificate -->
+  <!-- Dark Back Ribbon -->
+  <path d="M 0,0 C 140,240 180,380 90,620 C 50,720 10,800 0,850 Z" fill="#7F050F" opacity="0.35" />
+  <!-- Secondary Deep Red Ribbon -->
+  <path d="M 0,0 C 110,210 160,340 70,580 C 10,720 0,850 0,850 Z" fill="url(#redWaveGrad1)" />
+  <!-- Primary Vibrant Crimson Wave Ribbon -->
+  <path d="M 0,0 C 90,190 130,310 50,550 C -10,700 0,850 0,850 Z" fill="url(#redWaveGrad2)" />
+  <!-- Thin Accent Highlights -->
+  <path d="M 0,40 C 70,220 110,340 40,560 C -10,690 0,850 0,850 Z" fill="#FF525D" opacity="0.3" />
+
+  <!-- Bottom Left Corner Dark Red & Charcoal Geometrics -->
+  <polygon points="0,720 70,850 0,850" fill="#99000C" />
+  <polygon points="0,790 35,850 0,850" fill="#450A0A" />
+
+  <!-- Outer subtle border -->
+  <rect x="2" y="2" width="1196" height="846" fill="none" stroke="#E2E8F0" stroke-width="2" />
+
+  <!-- TOP RIGHT LOGO: PROUP INNOVATIONS -->
+  <g transform="translate(900, 45)">
+    <!-- PRO Text -->
+    <text x="0" y="55" class="font-sans" font-weight="900" font-size="62" fill="#1E293B" letter-spacing="-1">PRO</text>
+    
+    <!-- UP stylized in vibrant orange with upward arrow -->
+    <g transform="translate(138, 0)">
+      <!-- U container -->
+      <path d="M 6,18 L 6,42 C 6,56 16,64 30,64 C 44,64 54,56 54,42 L 54,18 L 40,18 L 40,40 C 40,46 36,50 30,50 C 24,50 20,46 20,40 L 20,18 Z" fill="url(#orangeLogoGrad)" />
+      <!-- Upward Arrow pointing through U -->
+      <polygon points="30,2 18,20 26,20 26,38 34,38 34,20 42,20" fill="url(#orangeLogoGrad)" />
+      <!-- P letter -->
+      <path d="M 60,18 L 84,18 C 96,18 104,26 104,36 C 104,46 96,54 84,54 L 74,54 L 74,70 L 60,70 Z M 74,30 L 74,42 L 82,42 C 87,42 90,39 90,36 C 90,33 87,30 82,30 Z" fill="url(#orangeLogoGrad)" />
+    </g>
+
+    <!-- INNOVATIONS Orange Pill Subtitle -->
+    <rect x="35" y="80" width="180" height="18" rx="2" fill="url(#orangeLogoGrad)" />
+    <text x="125" y="93" text-anchor="middle" class="font-sans" font-weight="800" font-size="11" fill="#FFFFFF" letter-spacing="4">INNOVATIONS</text>
+  </g>
+
+  <!-- MAIN CERTIFICATE HEADER -->
+  <g transform="translate(290, 220)">
+    <!-- CERTIFICATE -->
+    <text x="0" y="0" class="font-sans" font-weight="900" font-size="52" fill="#0F172A" letter-spacing="2">CERTIFICATE</text>
+    <!-- OF WORKSHOP PARTICIPATION -->
+    <text x="0" y="38" class="font-sans" font-weight="800" font-size="21" fill="#0F172A" letter-spacing="4">OF WORKSHOP PARTICIPATION</text>
+  </g>
+
+  <!-- SUB-HEADER: THIS IS TO CERTIFY THAT -->
+  <g transform="translate(290, 335)">
+    <text x="0" y="0" class="font-sans" font-weight="800" font-size="18" fill="#0F172A" letter-spacing="3">THIS IS TO CERTIFY THAT</text>
+  </g>
+
+  <!-- RECIPIENT NAME: KHUSHI -->
+  <g transform="translate(290, 425)">
+    <text x="0" y="0" class="font-sans" font-weight="900" font-size="56" fill="#0F172A" letter-spacing="1">KHUSHI</text>
+  </g>
+
+  <!-- BODY PARAGRAPH -->
+  <g transform="translate(290, 490)" class="font-sans" font-size="19" fill="#1E293B">
+    <text x="0" y="0">
+      <tspan>has successfully participated in the </tspan>
+      <tspan font-weight="800">Online Workshop</tspan>
+      <tspan> on </tspan>
+      <tspan font-weight="800">Web</tspan>
+    </text>
+    <text x="0" y="30">
+      <tspan font-weight="800">Development</tspan>
+      <tspan> organized by </tspan>
+      <tspan font-weight="800">ProUP Innovations</tspan>
+      <tspan> in association with</tspan>
+    </text>
+    <text x="0" y="60">
+      <tspan font-weight="800">Progression Marketing and Consultancy Services (PMCS)</tspan>
+      <tspan> held on</tspan>
+    </text>
+    <text x="0" y="90">
+      <tspan font-weight="800">2nd November 2025</tspan>
+      <tspan> in online mode.</tspan>
+    </text>
+
+    <!-- Closing Appreciation Statement -->
+    <text x="0" y="150" font-size="18" fill="#334155">
+      We appreciate their active participation and enthusiasm throughout
+    </text>
+    <text x="0" y="178" font-size="18" fill="#334155">
+      the session.
+    </text>
+  </g>
+
+  <!-- SIGNATURE SECTION -->
+  <g transform="translate(290, 745)">
+    <!-- Signature Graphic -->
+    <text x="5" y="-12" class="font-sig" font-size="44" fill="#0F172A">Psoni</text>
+    <!-- Underline dashed line -->
+    <line x1="0" y1="5" x2="180" y2="5" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="3,3" />
+    
+    <!-- Signatory Title -->
+    <text x="0" y="32" class="font-sans" font-weight="900" font-size="20" fill="#0F172A" letter-spacing="1.5">DIRECTOR</text>
+    <text x="0" y="56" class="font-sans" font-weight="600" font-size="16" fill="#475569">ProUP Innovations</text>
+  </g>
+</svg>
